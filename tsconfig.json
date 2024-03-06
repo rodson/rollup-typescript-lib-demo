@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "declaration": true
+    "declaration": true,
+    "moduleResolution": "node",
+	  "lib": [ "ESNext", "DOM" ],
+	  "baseUrl": "./",
+	  "paths": {
+		"tslib" : ["node_modules/tslib/tslib.d.ts"]
+	  }
   },
   "include": ["src"]
 }
